@@ -1,0 +1,17 @@
+cd : change directory
+
+home dir
+cd    or cd ~
+
+cd /path/to/directory
+cd ..   one dir up 
+cd ../..  2 levels
+cd -       previous
+
+cd ~user
+
+
+ENV related to CD
+cd $HOME
+echo $OLDPWD
+cd ../../.. 

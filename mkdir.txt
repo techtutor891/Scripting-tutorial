@@ -1,0 +1,31 @@
+mkdir   -- make directory 
+mkdir directory_name
+
+
+mkdir dir1 dir2 
+mkdir -p m1/m2      : mkdir -p parent/child/grandchild
+
+
+File exists error ( -p  option ) 
+
+
+
+mkdir --help
+  -m, --mode=MODE   set file mode (as in chmod), not a=rwx - umask
+  -p, --parents     no error if existing, make parent directories as needed
+  -v, --verbose     print a message for each created directory
+  -Z                   set SELinux security context of each created directory
+                         to the default type
+      --context[=CTX]  like -Z, or if CTX is specified then set the SELinux
+                         or SMACK security context to CTX
+      --help     display this help and exit
+      --version  output version information and exit
+mkdir -v newfolder
+
+Permission denied
+mkdir newdir && chmod 755 newdir
+7 owner ( read 4+ write 2+ execute 1)=7
+5 group (4+0+1) =5
+5 others (everyone) (4+0+1)=5
+
+which mkdir

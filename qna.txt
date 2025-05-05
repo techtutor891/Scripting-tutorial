@@ -1,0 +1,4 @@
+How to delete non empty dir ?
+rm -rf m3 m2       or      rm -rf m5
+
+
